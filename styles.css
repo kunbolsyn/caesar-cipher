@@ -1,0 +1,54 @@
+h1{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    color: rgb(6, 38, 6);
+    text-align: center;
+    font-size: 250%;
+    margin-bottom: 15px;
+}
+
+p{
+    font-family: 'Source Code Pro', monospace;
+    color: rgb(6, 38, 6);
+}
+
+body{
+    background-color: rgb(191, 230, 191);
+}
+
+div{
+    text-align: center;
+}
+
+img{
+    border-radius: 15px;
+    width: 50vw;
+}
+
+input{
+    font-family: 'Source Code Pro', monospace;
+    width: 30%;
+    height: 5%;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 10pt;
+    background-color: rgb(234, 248, 239);
+}
+
+button{
+    font-family: 'Source Code Pro', monospace;
+    height: 5%;
+    border-radius: 5px;
+    border: none;
+    padding: 0px 20px 0px 20px;
+    margin-left: 5px;
+    text-emphasis-color: rgb(6, 38, 6);
+    background-color: rgb(6, 38, 6);
+    color: rgb(191, 230, 191);
+}
+
+#result{
+    font-weight: bold;
+}

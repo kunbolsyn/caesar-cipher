@@ -1,15 +1,22 @@
 <html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap" rel="stylesheet">
+</head>
 
 <body>
-    <h1>Caesar Cipher</h1>
-    <p>This encoder uses 13 as the key</p>
-    <input type="text" placeholder="Enter text to encode" onkeydown="if(event.keyCode == 13) document.getElementById('submit').click()" id="input"/>
-    <button type="button" onclick=rot13() id="submit">Encode</button>
-    <p id="result">The result will be shown here</p>
-
+    <div>
+        <h1>Caesar Cipher</h1>
+        <div>
+            <img src="https://cdn.britannica.com/55/102155-050-285AC32A/Caesar-Augustus-marble-statue-Vatican-City-Museums.jpg?w=740&h=416&c=crop">
+        </div>
+        <input type="text" class="form" placeholder="Enter text to encode" onkeydown="if(event.keyCode == 13) document.getElementById('submit').click()" id="input"/>
+        <button type="button" class="form" onclick=rot13() id="submit">Encode</button>
+        <p id="result">The result will be shown here</p>
+        <p>This encoder uses 13 as the key</p>
+    </div>
     <script src="./script.js"></script>
-    </script>
-
 </body>
-
 </html>
