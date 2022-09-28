@@ -15,7 +15,7 @@ p{
 }
 
 body{
-    background-color: rgb(191, 230, 191);
+    background-color: rgb(203, 237, 203);
 }
 
 div{
@@ -46,7 +46,7 @@ button{
     border: none;
     padding: 0px 20px 0px 20px;
     background-color: rgb(6, 38, 6);
-    color: rgb(191, 230, 191);
+    color: rgb(203, 237, 203);
 }
 
 #result{
