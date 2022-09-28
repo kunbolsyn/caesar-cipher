@@ -12,9 +12,9 @@
         <div>
             <img src="https://cdn.britannica.com/55/102155-050-285AC32A/Caesar-Augustus-marble-statue-Vatican-City-Museums.jpg?w=740&h=416&c=crop">
         </div>
-        <input type="text" class="form" placeholder="Enter text to encode" onkeydown="if(event.keyCode == 13) document.getElementById('submit').click()" id="input"/>
-        <input type="number" placeholder="Key" id="val" onkeydown="if(event.keyCode == 13) document.getElementById('submit').click()" id="input"/>
-        <button type="button" class="form" onclick=rot13() id="submit">Encode</button>
+        <input type="text" placeholder="Enter text to encode" onkeydown="if(event.keyCode == 13) document.getElementById('submit').click()" id="input"/>
+        <input type="number" placeholder="Key" onkeydown="if(event.keyCode == 13) document.getElementById('submit').click()" id="val"/>
+        <button type="button" onclick=rot13() id="submit">Encode</button>
         <p id="result">The result will be shown here</p>
         <p id="text">Each character is replaced by another character that is separated from it in the alphabet by a fixed number of positions.</p>
     </div>
