@@ -24,13 +24,13 @@ div{
 
 img{
     border-radius: 15px;
-    width: 50vw;
+    width: 52vw;
 }
 
 input{
     font-family: 'Source Code Pro', monospace;
     width: 30%;
-    height: 5%;
+    height: 18px;
     margin: 20px 3px 0px 3px;
     padding: 10px;
     border-radius: 5px;
@@ -41,7 +41,7 @@ input{
 
 button{
     font-family: 'Source Code Pro', monospace;
-    height: 5%;
+    height: 38px;
     border-radius: 5px;
     border: none;
     padding: 0px 20px 0px 20px;
